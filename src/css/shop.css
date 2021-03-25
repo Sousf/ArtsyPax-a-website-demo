@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Unica+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Gelasio&display=swap");
+
+.shop {
+  box-sizing: border-box;
+  font-family: "Unica One", cursive;
+}
+
+.shop-nav {
+  height: 9vh;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 1rem;
+  z-index: 100;
+  background: white;
+}
+
+.shop-nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.shop-nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+.shop-nav li #search-bar {
+  height: 5vh;
+  width: 50vw;
+}
+
+.shop-nav li #shop-login,
+.shop-nav li #shop-signup {
+  border: 1px solid black;
+  padding: 7px 20px;
+}
+
+.mainContent {
+  background: white;
+}
+
+.slider {
+  position: sticky;
+  top: 9vh;
+  z-index: -1;
+}
+.w-100 {
+  height: 50vh;
+}
+
+.section-1 {
+  padding-top: 60px;
+  display: flex;
+  padding-bottom: 5%;
+}
+
+.section-1 .img1 {
+  height: 60px;
+  width: 80px;
+  background-size: cover;
+  background: url("../resources/images/small_rectangle.jpg");
+}
+
+.section-1 ul li {
+  list-style: none;
+}
+
+.section-1 ul {
+  padding-left: 20px;
+}
+
+.section-1 ul li.shop-feature-fair-text {
+  font-size: 110%;
+  font-weight: bold;
+}
+
+.shop-items {
+  padding-top: 30px;
+  border-top: 1px solid grey;
+  font-family: "Gelasio", serif;
+}
+
+.shop-items .featured-categories p {
+  font-size: 30px;
+}
+
+.shop-items .featured-categories ul {
+  min-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.shop-items .featured-categories ul li {
+  list-style: none;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.shop-items .featured-categories ul li img {
+  height: 131px;
+  width: 269px;
+  margin-bottom: 3%;
+}
+
+.shop-items .featured-categories ul li span {
+  font-size: 14px;
+  font-weight: lighter;
+}

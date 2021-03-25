@@ -1,0 +1,29 @@
+.btnGroup {
+  position: absolute;
+  width: 100vw;
+  text-align: center;
+  top: 35%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnGroup .title {
+  font-size: 64px;
+  font-weight: bold;
+  padding: 0;
+}
+
+.btnGroup .sub {
+  font-size: 18px;
+}
+
+.btnGroup button {
+  margin-top: 15px;
+  size: 150%;
+  border-radius: 10px;
+}
+
+.main-nav ul li a#shop {
+  color: gold;
+  font-weight: bold;
+}

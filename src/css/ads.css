@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+.mininav {
+  background-color: black;
+  height: 3vh;
+}
+
+.mininav p {
+  width: 100%;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
+.mininav p a {
+  text-decoration: underline;
+  color: white;
+}
+
+.main-nav {
+  width: 100%;
+  display: flex;
+  background-color: transparent;
+  position: fixed;
+  transition: 0.5s all;
+}
+
+.main-nav h4 {
+  padding-left: 3vw;
+  font-weight: bold;
+  color: black;
+  padding-top: 9px;
+}
+
+.main-nav ul {
+  width: 100%;
+  text-align: right;
+  padding-right: 2vw;
+  padding-top: 9px;
+}
+
+.main-nav ul li {
+  display: inline-block;
+  list-style: none;
+  padding-left: 3vw;
+}
+
+.main-nav ul li a {
+  color: black;
+  font-size: 13px;
+}
+
+.main-nav ul li a#shop {
+  display: flex;
+  background-color: red;
+  width: 55px;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.mySection {
+  height: 100vh;
+  width: 100%;
+  background: url("../resources/images/artphoto1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.inactive {
+  display: none;
+  transition: 0.5s all;
+}
+
+.isactive {
+  background-color: white;
+  border-bottom: 1px grey;
+  transition: 0.5s all;
+}
+
+.section-2 {
+  justify-content: space-around;
+  width: 100%;
+}
+
+.section-2 .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-2 p {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.section-2 .wrapper .pic {
+  cursor: pointer;
+  width: 30%;
+  min-height: 230px;
+  box-shadow: 0px -2px 33px -3px rgba(0, 0, 0, 0.75);
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.section-2 .wrapper .pic.first {
+  background: url("../resources/images/abstract-painting-1690351.jpg");
+}
+
+.section-2 .wrapper .pic.second {
+  background: url("../resources/images/abstract-abstract-painting-acrylic-acrylic-paint-1585325.jpg");
+}
+
+.section-2 .wrapper .pic.third {
+  background: url("../resources/images/blue-orange-and-white-abstract-painting-1183992.jpg");
+}
+
+.section-2 .wrapper .pic.fourth {
+  background: url("../resources/images/multicolored-abstract-painting-1070536.jpg");
+}
+
+.section-2 .wrapper .pic.fifth {
+  background: url("../resources/images/nativity-painting-of-people-inside-a-dome-159862.jpg");
+}
+
+.section-2 .wrapper .pic.sixth {
+  background: url("../resources/images/woman-s-face-1988681.jpg");
+}
